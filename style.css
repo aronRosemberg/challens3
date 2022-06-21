@@ -1,0 +1,180 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    height: 100vh;
+    
+}
+
+.boxPrincipal{
+    border-radius: 20px;
+    width: 30vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: white;
+}
+
+.titulo{
+    display: flex;
+    
+    align-items: center;
+    background-color: darkblue;
+    width: 100%;
+    height: 65px;
+    position: relative;
+    bottom: 20px;
+    
+    border-radius: 20px 20px 0 0;  
+      
+}
+.titulo h1{
+    padding-left: 30px;
+    color: white;
+}
+
+.equis{
+    
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    width:45px;
+    height:45px;
+    position: relative;
+  
+    
+    position: absolute;
+    top: 5px;
+    right: 5px;
+
+}
+.equis > div {
+
+    width: 25px;
+    height: 3px;
+    background-color: white;
+}
+
+.barras:nth-child(1) {
+    position: absolute;
+    transform: rotate(45deg);
+}
+
+.barras:nth-child(2) {
+    position: absolute;
+    transform: rotate(-45deg);
+   
+} 
+
+.fecha{
+
+    position: relative;
+    bottom: 40px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;  
+}
+
+.fecha p{
+    text-align: center;
+}
+
+.barras1{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 60px;
+    width: 60px;
+    position: relative;
+    
+}
+
+
+
+.barras2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 60px;
+    width: 60px;
+    position: relative;
+    
+}
+
+.barras1 > div{
+    height: 5px;
+    width: 20px;
+    background-color: black;
+    
+}
+
+.barras2 > div{
+    height: 5px;
+    width: 20px;
+    background-color: black;
+    
+}
+
+
+.barra:nth-child(1){
+    
+    transform: rotate(-45deg);
+    
+}
+.barra:nth-child(2){
+    position: relative;
+    transform: rotate(45deg);
+    bottom: 3px;
+    
+}
+
+.barras2 .barra:nth-child(1){
+    
+    transform: rotate(45deg);
+}
+
+.barras2 .barra:nth-child(2){
+    
+    transform: rotate(-45deg);
+}
+
+.caja1{
+    border: 3px solid black;
+    background-color: darkblue;
+    padding:30px 100px;
+    border-radius: 15px;
+    color: white;
+    position: relative;
+    bottom: 40px;
+    
+}
+
+.caja2{
+    background-color: darkblue;
+    border: 3px solid black;
+    padding:30px 105px;
+    border-radius: 15px;
+    color: white;
+    position: relative;
+    bottom: 40px;
+}   
